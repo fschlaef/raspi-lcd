@@ -8,6 +8,11 @@ fi
 old='#_OLD_CONF_'
 bootconfig=/boot/config.txt
 
+if grep -q $old $bootconfig; then
+	echo "Old configuration found in $bootconfig. You should run restore_old_conf.sh"
+	exit 1
+fi
+
 #Save old config
 #sed -i -r "s/^(disable_overscan=1)/$old\1/" $bootconfig #If overscan is disabled, enable it
 sed -i -r "s/^(hdmi_force_hotplug)/$old\1/" $bootconfig
