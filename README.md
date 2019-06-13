@@ -1,1 +1,1 @@
-# Raspberry-Pi-LCD-Driver
+# raspi-lcd
