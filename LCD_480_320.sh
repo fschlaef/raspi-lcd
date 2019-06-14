@@ -1,5 +1,6 @@
 #!/bin/bash
-# Part of Raspberry-Pi-LCD-Driver https://github.com/fschlaef/Raspberry-Pi-LCD-Driver
+# Part of raspi-lcd 
+# https://github.com/fschlaef/raspi-lcd
 #
 # See LICENSE file for copyright and license details
 
